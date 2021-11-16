@@ -10,8 +10,8 @@ This sample project is used in the Deploy a Spring Boot application on AKS clust
 - A [Git](https://github.com/) client.
 - A [Docker](https://www.docker.com/) client.
 
-## Getting Started
-Download the project and follow the steps outlined in this tutorial : 
+## Running the project
+Download the project, change directory to ```springboot-mysql-aks``` folder and follow the steps outlined in this tutorial : 
 
 1. Create an Azure Database for MySQL - Flexible Server
 2. Create an Azure Container Registry
