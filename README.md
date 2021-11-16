@@ -1,57 +1,22 @@
-# Project Name
+# Sample project for Spring Boot application on AKS with Azure Database for MySQL - Flexible Server
+ 
+This sample project is used in the Deploy a Spring Boot application on AKS cluster with MySQL Flexible Server in a VNet Microsoft documentation tutorial.
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
+## Prerequisites
+- An Azure subscription. If you don't have an Azure subscription, create an [Azure free account](https://azure.microsoft.com/free/) before you begin. With an Azure free account, you can now try Azure Database for MySQL - Flexible Server for free for 12 months. For more details, see [Try Flexible Server for free](https://docs.microsoft.com/azure/mysql/flexible-server/how-to-deploy-on-azure-free-account).
+- The [Azure Command-Line Interface (CLI)](/cli/azure/install-azure-cli).
+- A supported [Java Development Kit](/azure/developer/java/fundamentals/java-support-on-azure), version 8 (included in Azure Cloud Shell).
+- The [Apache Maven](https://maven.apache.org/) build tool.
+- A [Git](https://github.com/) client.
+- A [Docker](https://www.docker.com/) client.
 
 ## Getting Started
+Download the project and follow the steps outlined in this tutorial : 
 
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+1. Create an Azure Database for MySQL - Flexible Server
+2. Create an Azure Container Registry
+3. Build the image and push to ACR
+4. Create a Kubernetes cluster on AKS
+5. Deploy the application to AKS cluster
+6. Test the application
+7. Clean up resources
