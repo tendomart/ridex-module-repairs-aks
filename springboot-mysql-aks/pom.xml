@@ -14,7 +14,8 @@
 	<name>demo</name>
 	<description>Spring Boot on AKS connecting to Azure DB for MySQL</description>
 	<properties>
-   		<docker.image.prefix>mysqlaksdemoregistry.azurecr.io</docker.image.prefix>
+<!--   		<docker.image.prefix>mysqlaksdemoregistry.azurecr.io</docker.image.prefix>-->
+		<docker.image.prefix>mysqlaksridexregistry.azurecr.io</docker.image.prefix>
    		<jib-maven-plugin.version>3.1.4</jib-maven-plugin.version>
    		<java.version>1.8</java.version>
 	</properties>
